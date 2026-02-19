@@ -30,8 +30,9 @@ Below is a preview of the main application interface used to navigate between in
 ## 📊 Database Architecture
 The system uses a relational schema managed via pgAdmin 4. Below is the current table structure and sample data.
 
-![Database Schema Screenshot](path/to/your/database-screenshot.png)
-*Placeholder: Replace the path above with your pgAdmin screenshot.*
+<img src="https://github.com/user-attachments/assets/faad7329-6976-43ff-af42-ba6d01e2a4e5" width="343" height="209" alt="Product table">
+<img src="https://github.com/user-attachments/assets/48687db8-a36c-446d-ac91-c72d629aa6fc" width="343" height="209" alt="customer table">
+<img src="https://github.com/user-attachments/assets/af65cd8a-58c3-4d3c-94d7-3508cf0a2c29" width="343" height="209" alt="invoice table">
 
 
 
