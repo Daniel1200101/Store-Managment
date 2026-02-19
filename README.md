@@ -49,7 +49,7 @@ The system utilizes a relational schema hosted on **PostgreSQL**. Below are the 
 <p align="center">
   <b>3. Invoice & Billing Table</b><br>
   <i>Records transaction history and links orders to specific customers.</i><br>
-  <img src="https://github.com/user-attachments/assets/bf9a2045-7e86-44d6-b78d-4c8fe7aea16e" width="700" alt="invoice table">
+  <img src="https://github.com/user-attachments/assets/5c95c37a-753c-4560-ab22-b80a0f1b5012" width="700" alt="invoice table">
 </p>
 
 
