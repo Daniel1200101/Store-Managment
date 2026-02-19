@@ -7,9 +7,7 @@ A robust **Java-based Store Management System** developed as part of a Software 
 ## 🖥️ User Interface & Menu
 Below is a preview of the main application interface used to navigate between inventory management and order processing.
 
-![Application Menu](<img width="343" height="209" alt="menu" src="https://github.com/user-attachments/assets/0c37bda6-c01b-4233-a830-8e4ac94475a1" />)
-
-*Placeholder: Replace the path above with your actual menu image file.*
+<img src="https://github.com/user-attachments/assets/0c37bda6-c01b-4233-a830-8e4ac94475a1" width="343" height="209" alt="Application Menu">
 
 ---
 
