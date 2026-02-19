@@ -1284,12 +1284,16 @@ public class Main {
 				stmt.close();
 		}
 	}
-
+	
+	String dbName = "store_db";
+	String user = "postgres";
+	String pass = "your_password_here";
+	
 	public static void main(String[] args) throws SQLException, ClassNotFoundException, IOException {
 		DbFunction db = new DbFunction();
 		Connection conn = null;
 		try {
-			conn = db.connectToDB("MyStore", "postgres", "daniel123");
+			conn = db.connectToDB(dbName, user, pass);
 			String option = "";
 			while (!option.toUpperCase().equals("E")) {
 				System.out.println("Hello");
