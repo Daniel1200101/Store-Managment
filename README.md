@@ -4,11 +4,20 @@ A robust **Java-based Store Management System** developed as part of a Software 
 
 ---
 
+## 🖥️ User Interface & Menu
+Below is a preview of the main application interface used to navigate between inventory management and order processing.
+
+![Application Menu](<img width="343" height="209" alt="menu" src="https://github.com/user-attachments/assets/0c37bda6-c01b-4233-a830-8e4ac94475a1" />)
+
+*Placeholder: Replace the path above with your actual menu image file.*
+
+---
+
 ## 🚀 Key Features
 * **Multi-Channel Inventory:** Logic for handling `InStore`, `Website`, and `Wholesale` products.
 * **Database Utility:** Custom-built `DbFunction` class for automated table creation and prepared statement execution.
 * **Order Processing:** Interface-driven system (`Orderable.java`) to ensure consistent behavior across different order types.
-* **Persistent Storage:** Full integration with PostgreSQL for high-reliability data management.
+* **Security:** Implements `PreparedStatement` to prevent SQL injection during database queries.
 
 ---
 
@@ -20,8 +29,18 @@ A robust **Java-based Store Management System** developed as part of a Software 
 
 ---
 
+## 📊 Database Architecture
+The system uses a relational schema managed via pgAdmin 4. Below is the current table structure and sample data.
+
+![Database Schema Screenshot](path/to/your/database-screenshot.png)
+*Placeholder: Replace the path above with your pgAdmin screenshot.*
+
+
+
+---
+
 ## 📁 Project Structure
-* **`products`**: Contains the core logic for the abstract `Product` class and its specialized variants.
+* **`products`**: Core logic for the abstract `Product` class and its specialized variants.
 * **`orders`**: Handles the logic for `InStoreOrder`, `WebsiteOrder`, and `WholesalerOrder`.
 * **`main`**: Home to `DbFunction.java`, managing the backend connection and SQL queries.
 * **`enums`**: Stores constants for `eProductType` and `eShippingOption`.
@@ -44,18 +63,7 @@ To resolve the `org.postgresql.Driver` connection, you must add the JDBC JAR:
 2. Go to **Libraries** -> **Classpath**.
 3. Click **Add External JARs** and select the `postgresql-42.x.x.jar`.
 
-### 3. Running the App
-1. Initialize the `DbFunction` class.
-2. Establish a connection using `connect_do_db`.
-3. Execute `createTable` to set up your environment automatically.
-
 ---
 
-## 📝 Code Snippet: DB Connection
-```java
-DbFunction db = new DbFunction();
-Connection conn = db.connect_do_db("store_db", "postgres", "your_password");
-
-if (conn != null) {
-    System.out.println("System ready for operations.");
-}
+## 👤 Author
+**Software Engineering Student** *Final Project - Store Management Module*
