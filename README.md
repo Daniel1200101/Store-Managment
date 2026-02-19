@@ -28,12 +28,29 @@ Below is a preview of the main application interface used to navigate between in
 ---
 
 ## 📊 Database Architecture
-The system uses a relational schema managed via pgAdmin 4. Below is the current table structure and sample data.
+The system utilizes a relational schema hosted on **PostgreSQL**. Below are the core tables that manage our store's persistent data.
 
-<img src="https://github.com/user-attachments/assets/faad7329-6976-43ff-af42-ba6d01e2a4e5" width="343" height="209" alt="Product table">
-<img src="https://github.com/user-attachments/assets/48687db8-a36c-446d-ac91-c72d629aa6fc" width="343" height="209" alt="customer table">
-<img src="https://github.com/user-attachments/assets/af65cd8a-58c3-4d3c-94d7-3508cf0a2c29" width="343" height="209" alt="invoice table">
+<p align="center">
+  <b>1. Product Inventory Table</b><br>
+  <i>Stores product details including cost, selling price, and stock levels.</i><br>
+  <img src="https://github.com/user-attachments/assets/faad7329-6976-43ff-af42-ba6d01e2a4e5" width="700" alt="Product table">
+</p>
 
+<br>
+
+<p align="center">
+  <b>2. Customer Records Table</b><br>
+  <i>Tracks customer identification and contact information.</i><br>
+  <img src="https://github.com/user-attachments/assets/48687db8-a36c-446d-ac91-c72d629aa6fc" width="700" alt="customer table">
+</p>
+
+<br>
+
+<p align="center">
+  <b>3. Invoice & Billing Table</b><br>
+  <i>Records transaction history and links orders to specific customers.</i><br>
+  <img src="https://github.com/user-attachments/assets/af65cd8a-58c3-4d3c-94d7-3508cf0a2c29" width="700" alt="invoice table">
+</p>
 
 
 ---
